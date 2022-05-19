@@ -1,0 +1,29 @@
+name: todo_app
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.0.0
+  path_provider: ^2.0.10
+  cupertino_icons: ^1.0.2
+  path: ^1.8.0
+  provider: ^6.0.2
+  another_flushbar: ^1.10.28
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: ^1.19.3
+  flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+
